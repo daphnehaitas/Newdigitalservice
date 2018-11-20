@@ -1,0 +1,15 @@
+{
+  "_id": "page.realproblem",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.realproblem--textarea.input_auto__4",
+      "_type": "textarea",
+      "hint": "Under 30 words",
+      "label": "What's the real problem you want to solve?",
+      "name": "input_auto__4"
+    }
+  ],
+  "sectionHeading": "Problem statement",
+  "url": "realproblem"
+}

@@ -1,0 +1,15 @@
+{
+  "_id": "page.problemid",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.problemid--textarea.input_auto__5",
+      "_type": "textarea",
+      "hint": "Under 30 words",
+      "label": "How has the problem been identified and by whom",
+      "name": "input_auto__5"
+    }
+  ],
+  "sectionHeading": "Problem details",
+  "url": "problemid"
+}

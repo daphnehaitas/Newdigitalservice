@@ -1,0 +1,45 @@
+{
+  "_id": "page.newdemandoptions",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.newdemandoptions--radios.input_auto__2",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.newdemandoptions--radios.input_auto__2--radio.nomis",
+          "_type": "radio",
+          "label": "NOMIS",
+          "value": "nomis"
+        },
+        {
+          "_id": "page.newdemandoptions--radios.input_auto__2--radio.OASys",
+          "_type": "radio",
+          "label": "OASys",
+          "value": "OASys"
+        },
+        {
+          "_id": "page.newdemandoptions--radios.input_auto__2--radio.delius",
+          "_type": "radio",
+          "label": "Delius",
+          "value": "delius"
+        },
+        {
+          "_id": "page.newdemandoptions--radios.input_auto__2--radio.Other",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.newdemandoptions--radios.input_auto__2--radio.Other--text.input_auto__3",
+            "_type": "text",
+            "label": "More information",
+            "name": "input_auto__3"
+          },
+          "label": "Other",
+          "value": "Other"
+        }
+      ],
+      "legend": "Is your new demand about any of the following",
+      "name": "input_auto__2"
+    }
+  ],
+  "url": "newdemandoptions"
+}

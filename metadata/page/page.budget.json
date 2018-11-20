@@ -1,0 +1,34 @@
+{
+  "_id": "page.budget",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.budget--radios.input_auto__6",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.budget--radios.input_auto__6--radio.yesno",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "yesno"
+        },
+        {
+          "_id": "page.budget--radios.input_auto__6--radio.No",
+          "_type": "radio",
+          "label": "No",
+          "value": "No"
+        },
+        {
+          "_id": "page.budget--radios.input_auto__6--radio.notyet",
+          "_type": "radio",
+          "label": "Not yet",
+          "value": "notyet"
+        }
+      ],
+      "legend": "Do you have the budget to support this proposal?",
+      "name": "input_auto__6"
+    }
+  ],
+  "sectionHeading": "Budget",
+  "url": "budget"
+}

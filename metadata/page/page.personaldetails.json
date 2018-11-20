@@ -1,0 +1,31 @@
+{
+  "_id": "page.personaldetails",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.personaldetails--text.input_auto__7",
+      "_type": "text",
+      "label": "Your name",
+      "name": "input_auto__7"
+    },
+    {
+      "_id": "page.personaldetails--email.input_auto__8",
+      "_type": "email",
+      "label": "Email address",
+      "name": "email"
+    },
+    {
+      "_id": "page.personaldetails--text.input_auto__9",
+      "_type": "text",
+      "label": "Phone number",
+      "name": "input_auto__9",
+      "validation": {
+        "maxLength": 11,
+        "minLength": 10
+      }
+    }
+  ],
+  "heading": "How do we get in touch with you?",
+  "sectionHeading": "About you",
+  "url": "personaldetails"
+}
