@@ -11,7 +11,8 @@
     "page.problemid",
     "page.budget",
     "page.personaldetails",
-    "page.confirm"
+    "page.confirm",
+    "page.confirmation"
   ],
   "url": "/"
 }
